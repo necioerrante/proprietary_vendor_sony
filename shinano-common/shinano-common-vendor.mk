@@ -16,6 +16,8 @@
 
 PRODUCT_PACKAGES += \
     com.qualcomm.location \
-    libtime_genoff
+    libtime_genoff \
+    libTimeService \
+    TimeService
 
 $(call inherit-product, vendor/sony/shinano-common/shinano-common-vendor-blobs.mk)
